@@ -43,9 +43,9 @@ create vuex store and json schema.
 
 import Vue from 'vue'
 import Vuex from 'vuex'
-import VuexJsonSceham from 'vuex-jsonschema-validation'
+import VuexJsonSchema from 'vuex-jsonschema-validation'
 import schema from './schema.json'
-const plugin = VuexJsonSceham(schema)
+const plugin = VuexJsonSchema(schema)
 
 Vue.use(Vuex)
 
